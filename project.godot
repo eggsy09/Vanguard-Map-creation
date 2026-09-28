@@ -1,0 +1,22 @@
+config_version=5
+
+[application]
+config/name="Havenreach — Godot Collision Playtest"
+run/main_scene="res://scenes/Playtest.tscn"
+config/features=PackedStringArray("4.4", "GL Compatibility")
+
+[display]
+window/size/viewport_width=1280
+window/size/viewport_height=800
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.07,0.1,0.12,1)
+
+[layer_names]
+2d_physics/layer_1="World solids"
+2d_physics/layer_2="Test player"
+2d_physics/layer_3="Door triggers"

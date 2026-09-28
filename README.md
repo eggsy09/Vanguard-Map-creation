@@ -4,6 +4,10 @@ A **2000 × 2000 px** town built from original-scale [ElizaWy/LPC](https://githu
 
 ## Open and play
 
+**Windows launcher:** extract the complete ZIP, then double-click `Launch-Havenreach.bat`. It finds Godot on your PATH or asks you to select your installed Godot 4 `.exe`. It remembers that selection under `%LOCALAPPDATA%/VanguardMapPlaytest/`, imports the assets, and launches this map. No exported game executable or additional Godot installation is bundled. Use `Open-Havenreach-Editor.bat` to inspect the project in the editor instead. The Windows launcher has been inspected here; Windows execution must be checked on your PC.
+
+Manual opening (Windows, macOS or Linux):
+
 1. Download this repository as a ZIP and extract it.
 2. In **Godot 4.4 or newer**, choose **Import** and select `project.godot`.
 3. Let the assets import, then press **F5**.
